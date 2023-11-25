@@ -1,22 +1,22 @@
-GIT克隆人HTPS://吉尤特.com/杜霍霍德人/斯瓦特-穆克姆人。
-信用卡
-康达创造-n斯瓦普姆汉姆巨蛇=3.7-y
-启动斯瓦普姆汉姆
-康达安装皮托==2.0.0火炬视觉=0.15.0托肖迪奥=2.0焦喷灯-喷灯-喷灯-C
-PIP安装-R要求。Txt
- 巨蛇APY.PY----海关数据自动化系统----电池尺寸 32
+git clone https://github.com/douhaohaode/Swap-Mukham.git
+cd Swap-Mukham
+conda create -n swapmukham python=3.10 -y
+conda activate swapmukham
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+python app.py --cuda --batch_size 32
 
 
-### MAC venv 安装
+### MAC venv 安装 
 
 ```python
 
-GIT克隆人HTPS://吉尤特.com/杜霍霍德人/斯瓦特-穆克姆人。
-信用卡
- 毕顿 3 -文夫文夫
-资料来源VIN/BIN/激活
+git clone https://github.com/douhaohaode/Swap-Mukham.git
+cd Swap-Mukham
+python3 -m venv venv
+source venv/bin/activate
 pip install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0
-PIP安装-R要求。Txt
- 毕顿 3 .
+pip install -r requirements.txt
+python3 app.py
 
 ```
